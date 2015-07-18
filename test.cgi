@@ -6,8 +6,10 @@ if grep --quiet $REMOTE_ADDR /etc/whitelist; then
 # simple line that's easily `grep`able.
  if [[ $HTTP_USER_AGENT =~ ^Wget* ]] ||
     [[ $HTTP_USER_AGENT =~ ^curl* ]]; then
+ # if wget/curl and IP is CS
   echo "$REMOTE_ADDR IS cryptostorm"
  else
+ # if NOT wget/curl and IP is CS
   cat << YESFORTHELOVEOFGODYES
 <!DOCTYPE html>
 <html lang="en">
@@ -42,8 +44,10 @@ YESFORTHELOVEOFGODYES
 else
  if [[ $HTTP_USER_AGENT =~ ^Wget* ]] ||
     [[ $HTTP_USER_AGENT =~ ^curl* ]]; then
+ # if wget/curl and IP is NOT CS
   echo "$REMOTE_ADDR IS NOT cryptostorm"
  else
+ # if NOT wget/curl and IP is NOT CS
   cat << NONOOMGNO
 <!DOCTYPE html>
 <html lang="en">
