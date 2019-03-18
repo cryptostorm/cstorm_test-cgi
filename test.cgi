@@ -16,7 +16,7 @@ if grep --quiet $REMOTE_ADDR /etc/whitelist; then
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cryptostorm Darknet</title>
+<title>cryptostorm</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon-yes.ico" />
 <style type="text/css">
 body, html {
@@ -35,7 +35,7 @@ p {
 </style>
 </head>
 <body>
-    <p>You are connected to the Cryptostorm Darknet.<br/>
+    <p>You are connected to cryptostorm.<br/>
     Your IP address is: $REMOTE_ADDR</p>
 </body>
 </html>
@@ -54,7 +54,7 @@ else
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cryptostorm Darknet</title>
+<title>cryptostorm</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon-no.ico" />
 <style type="text/css">
 body, html {
@@ -73,7 +73,7 @@ p {
 </style>
 </head>
 <body>
-    <p>You are <b>NOT</b> connected to the Cryptostorm Darknet.<br/>
+    <p>You are <b>NOT</b> connected to cryptostorm.<br/>
     Your IP address is: $REMOTE_ADDR</p>
 </body>
 </html>
