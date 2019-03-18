@@ -1,2 +1,1 @@
-# website_test-cgi
-Check if you're connected to the <a href="https://cryptostorm.is/" target="_blank">cryptostorm VPN</a>
+Source code of <a href="https://cryptostorm.is/test" target="_blank">https://cryptostorm.is/test</a>, which checks if you're connected to the <a href="https://cryptostorm.is/" target="_blank">cryptostorm VPN</a>
